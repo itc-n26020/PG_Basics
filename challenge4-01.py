@@ -1,0 +1,4 @@
+def kariert(x):
+    return x **2
+squared = kariert(3)
+print(squared)
