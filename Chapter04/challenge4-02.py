@@ -1,5 +1,4 @@
-def string(st):
-
-   return print(st)
-
-string("NNY")
+def parroting(s):
+    print(s)
+sentence="この文字列を関数にセットしました"
+parroting(sentence)
