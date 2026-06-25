@@ -1,15 +1,7 @@
-def division(a):
-
-    result = a/2
-    print("入力された整数を2で割った結果=", int(result))
-    return result
-
-def multiplication(b):
-    result = b * 4
-    print("入力された整数を4でかけた結果＝", int(result))
-    return result
-
-a = 6
-b = division(a)
-multiplication(b)
-
+def func1(x):
+     return x / 2
+def func2(y):
+    return y * 4
+a = func1(10)
+b = func2(a)
+print(b)

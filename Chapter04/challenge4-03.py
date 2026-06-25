@@ -1,9 +1,11 @@
-def number(a, b, c, y=4, z=5):
-    
-     result = int(a + b + c + y + z)    # 入力値をたし算する
-     print("入力された整数を足した結果＝", result)
-
-a = 1
-b = 2
-c = 3
-number(a, b, c)
+def penta(a, b, c, x=3, y=5):
+    print(a)
+    print(b)
+    print(c)
+    print(x)
+    print(y)
+    return
+print("引数を５つ指定した場合")
+penta(1, 2, 3, 10, 20)
+print("引数を３つだけ指定した場合")
+penta(10, 20, 30)

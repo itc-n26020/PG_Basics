@@ -1,9 +1,7 @@
-def decimal(a):
+def float_to(s):
     try:
-        print("入力された文字 ＝", a)
-        print("入力された文字を少数点化した結果＝", float(a))
-        return a
-    except ValueError:
-        print("整数、または、少数点数を入力してください。")
-a = str("52.4")
-decimal(a)
+        return float(s)
+    except (ValueError):
+        print("数字ではないので処理を中止します")
+f = float_to("")
+print(f)
